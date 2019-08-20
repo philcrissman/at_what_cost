@@ -1,8 +1,21 @@
 # AtWhatCost
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/at_what_cost`. To experiment with that code, run `bin/console` for an interactive prompt.
+When you want to answer the question _at what cost_, simply put some code into a proc, and ask:
 
-TODO: Delete this and the text above, and describe your gem
+```
+require 'at_what_cost'
+
+p = ->{ (1..9999).map{|n| n**2}}
+
+p.at_what_cost?
+```
+
+And see the output (YMMV): 
+
+```
+       user     system      total        real
+   0.002122   0.000151   0.002273 (  0.002882)
+```
 
 ## Installation
 
