@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    at_what_cost (0.1.0)
+    at_what_cost (1.0.0)
 
 GEM
   remote: https://rubygems.org/
