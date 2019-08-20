@@ -33,9 +33,6 @@ Or install it yourself as:
 
     $ gem install at_what_cost
 
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
