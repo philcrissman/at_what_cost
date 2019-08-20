@@ -9,7 +9,7 @@ end
 class Proc
   def at_what_cost?
     Benchmark.bm do |x|
-      x.report { self.() }
+      x.report(&self)
     end
   end
 end

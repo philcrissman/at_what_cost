@@ -2,7 +2,7 @@
 
 When you want to answer the question _at what cost_, simply put some code into a proc, and ask:
 
-```
+```ruby
 require 'at_what_cost'
 
 p = ->{ (1..9999).map{|n| n**2}}
