@@ -3,7 +3,6 @@ require "benchmark"
 
 module AtWhatCost
   class Error < StandardError; end
-  # Your code goes here...
 end
 
 class Proc
